@@ -96,15 +96,15 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
                   <Mail className="h-4 w-4 text-purple-400" />
-                  <span className="text-gray-400">info@kakverastyle.com</span>
+                  <span className="text-gray-400">hello@kakverastyle.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="h-4 w-4 text-purple-400" />
-                  <span className="text-gray-400">trade@kakverastyle.com</span>
+                  <span className="text-gray-400">support@kakverastyle.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="h-4 w-4 text-purple-400" />
-                  <span className="text-gray-400">+234 XXX XXX XXXX</span>
+                  <span className="text-gray-400">+234 816 277 7605</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin className="h-4 w-4 text-purple-400" />

@@ -29,8 +29,9 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Email Us</h4>
-                    <p className="text-gray-600 mb-1">info@luxevibe.com</p>
-                    <p className="text-gray-600">vip@luxevibe.com</p>
+                    <p className="text-gray-600 mb-1">hello@kakverastyle.com</p>
+                    <p className="text-gray-600 mb-1">support@kakverastyle.com</p>
+                    <p className="text-gray-600">orders@kakverastyle.com</p>
                   </div>
                 </div>
 
@@ -40,7 +41,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Call Us</h4>
-                    <p className="text-gray-600">+234 XXX XXX XXXX</p>
+                    <p className="text-gray-600">+234 816 277 7605</p>
                   </div>
                 </div>
 
@@ -50,7 +51,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">WhatsApp</h4>
-                    <p className="text-gray-600">+234 XXX XXX XXXX</p>
+                    <p className="text-gray-600">+234 816 277 7605</p>
                     <p className="text-sm text-gray-500">Available 24/7</p>
                   </div>
                 </div>

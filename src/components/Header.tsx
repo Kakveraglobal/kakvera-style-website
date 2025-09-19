@@ -28,7 +28,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate, currency, onCu
       {/* Top bar */}
       <div className="bg-purple-600 text-white text-sm py-2">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <span>Free shipping on orders over $50 worldwide | WhatsApp: +234 XXX XXX XXXX</span>
+          <span>Free shipping on orders over $50 worldwide | WhatsApp: +234 816 277 7605</span>
         </div>
       </div>
 
