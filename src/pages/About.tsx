@@ -1,14 +1,7 @@
 import React from 'react';
-import { Globe, Users, Award, Truck, Shield, Star } from 'lucide-react';
+import { Globe, Award, Truck, Shield } from 'lucide-react';
 
 const About: React.FC = () => {
-  const stats = [
-    { number: '10,000+', label: 'Happy Customers', icon: Users },
-    { number: '50+', label: 'Countries Served', icon: Globe },
-    { number: '5000+', label: 'Products Sold', icon: Award },
-    { number: '99.9%', label: 'Customer Satisfaction', icon: Star }
-  ];
-
   const values = [
     {
       icon: Shield,
@@ -80,33 +73,6 @@ const About: React.FC = () => {
         </div>
       </section>
 
-      {/* Stats */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Impact</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              These numbers represent the trust our customers place in us every day.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {stats.map((stat, index) => {
-              const IconComponent = stat.icon;
-              return (
-                <div key={index} className="text-center">
-                  <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-100 text-purple-600 rounded-2xl mb-4">
-                    <IconComponent className="h-8 w-8" />
-                  </div>
-                  <div className="text-4xl font-bold text-gray-900 mb-2">{stat.number}</div>
-                  <div className="text-gray-600 font-medium">{stat.label}</div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
       {/* Mission & Vision */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
@@ -159,34 +125,6 @@ const About: React.FC = () => {
                 </div>
               );
             })}
-          </div>
-        </div>
-      </section>
-
-      {/* Team Section */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">Meet Our Team</h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-12">
-            Behind every great product and service is a dedicated team of professionals who share our 
-            passion for fashion, quality, and customer satisfaction.
-          </p>
-          
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((i) => (
-              <div key={i} className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition-shadow">
-                <img
-                  src={`https://images.pexels.com/photos/432059${i}/pexels-photo-432059${i}.jpeg?auto=compress&cs=tinysrgb&w=400`}
-                  alt="Team member"
-                  className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
-                />
-                <h4 className="text-xl font-semibold text-gray-900 mb-2">Team Member {i}</h4>
-                <p className="text-purple-600 font-medium mb-3">Department Head</p>
-                <p className="text-gray-600 text-sm">
-                  Dedicated to bringing you the best in fashion and customer service.
-                </p>
-              </div>
-            ))}
           </div>
         </div>
       </section>
